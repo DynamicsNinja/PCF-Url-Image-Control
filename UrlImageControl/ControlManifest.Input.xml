@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="Fic" constructor="UrlImageControl" version="1.0.0" display-name-key="Control_Display_Name_Key" description-key="Control_Description_Key" control-type="standard">
+    <property name="imageUrl" display-name-key="Url_Property_Display_Name_Key" description-key="Url_Property_Description_Key" of-type-group="urls" usage="bound" required="true" />
+    <type-group name="urls">
+      <type>SingleLine.Text</type>
+      <type>SingleLine.URL</type>
+    </type-group>
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/UrlImageControl.css" order="1" />
+      <resx path="strings/UrlImageControl.1033.resx" version="1.0.0" />
+    </resources>
+  </control>
+</manifest>
